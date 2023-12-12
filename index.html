@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>namu darbas</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: lightblue;
+      color: white;
+      text-align: center;
+      padding: 1em;
+    }
+
+    main {
+		
+      padding: 20px;
+    }
+
+    ul {
+		text-align: center;
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+    }
+
+    li svg {
+      margin-left: 10px;
+      cursor: pointer;
+    }
+
+    input[type="text"] {
+      padding: 10px;
+	  
+    }
+	
+  </style>
+</head>
+<body>
+  <header>
+    <h1>What you have to do?</h1>
+    <form id="taskForm">
+      <input type="text" id="taskInput" placeholder="Write something here...">
+      <button type="submit" id="addTaskBtn">
+        <svg height="30" viewBox="0 0 426.66667 426.66667" width="30" xmlns="http://www.w3.org/2000/svg">
+          <path d="m405.332031 192h-170.664062v-170.667969c0-11.773437-9.558594-21.332031-21.335938-21.332031-11.773437 0-21.332031 9.558594-21.332031 21.332031v170.667969h-170.667969c-11.773437 0-21.332031 9.558594-21.332031 21.332031 0 11.777344 9.558594 21.335938 21.332031 21.335938h170.667969v170.664062c0 11.777344 9.558594 21.335938 21.332031 21.335938 11.777344 0 21.335938-9.558594 21.335938-21.335938v-170.664062h170.664062c11.777344 0 21.335938-9.558594 21.335938-21.335938 0-11.773437-9.558594-21.332031-21.335938-21.332031zm0 0"/>
+        </svg>
+      </button>
+    </form>
+  </header>
+
+  <script src="script.js"></script>
+</body>
+</html>
